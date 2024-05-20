@@ -1,0 +1,21 @@
+select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+option {
+    font-size: 16px;
+}
+
+.expenseItem {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 16px;
+}
+
+.darkTheme{
+    background-color: #343434;
+}

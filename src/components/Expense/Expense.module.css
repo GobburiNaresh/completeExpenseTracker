@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#1abc9c;;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile p {
+    margin: 0;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.profileIcon {
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.dropdownMenu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #41B06E;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.dropdownMenu button {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+}
+.dropdownMenu button:hover{
+    color: black;
+}
+
+
+.premium {
+    margin-left: auto;
+}
+
+.premiumButton {
+    background-color: #ffd700;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.premiumButton:hover {
+    background-color: #e5b800;
+}
+.dark{
+    font-size: 40px;
+    margin: 10px;
+}
+.darkTheme{
+    background-color: #343434;
+}

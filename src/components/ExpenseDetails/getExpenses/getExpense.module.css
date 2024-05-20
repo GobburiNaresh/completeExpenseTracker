@@ -1,0 +1,76 @@
+.layout {
+    margin:100px auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: left;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.expenseTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expenseTable th,
+.expenseTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.expenseTable th {
+    background-color: #f2f2f2;
+}
+
+.expenseItem {
+    list-style: none;
+}
+
+.editDelete {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete, .edit {
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none; 
+    text-align: center;
+}
+
+.delete {
+    background-color: red;
+}
+
+.edit {
+    background-color: green;
+}
+
+.delete:hover {
+    background-color: rgb(137, 9, 9);
+    color: white;
+}
+
+.edit:hover {
+    background-color: #08f510;
+    color: white;
+}
+.darkTheme{
+    padding: 1rem;
+    background-color: #343434;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: left;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.darkTheme td{
+    color: white;
+}
